@@ -1,0 +1,19 @@
+{
+  "name": "messing-around-with-an-animated-daruma-doll-for-my-website",
+  "version": "1.0.0",
+  "description": "click it",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "lodash.debounce": "4.0.8",
+    "popmotion": "8.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

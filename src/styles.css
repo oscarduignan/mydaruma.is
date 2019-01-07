@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.daruma {
+  width: 150px;
+  height: auto;
+  transform-origin: 55% 95%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
+
+.daruma img,
+.daruma svg {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.daruma img {
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+}
+
+.daruma svg {
+  z-index: -1;
+  height: auto;
+}
+
+.daruma-shadow {
+  align-self: end;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+#daruma-silouette {
+  fill: orange;
+}
+
+.daruma-eye {
+  display: none;
+  width: 15px;
+  height: 20px;
+  background-color: blue;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  position: absolute;
+  left: 32px;
+  margin-top: -30px;
+}
